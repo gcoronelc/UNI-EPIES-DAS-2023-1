@@ -1,0 +1,6 @@
+Practica 1: SQL
+Practica 2: Diseño y analisis de sistemas
+Examen Parcial
+Practica 3: Analisis del proyecto - Avance 1 del desarrollo del proyecto
+PRactica 4: Analisis del proyecto - Desarrollo del proyecto completo
+Examen Final: Teoria Java y Desarroolar un caso
