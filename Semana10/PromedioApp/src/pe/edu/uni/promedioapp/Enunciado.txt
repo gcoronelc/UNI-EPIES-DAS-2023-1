@@ -1,0 +1,9 @@
+Calcular el promedio de un estudiante.
+Son 3 notas:
+- PP Promedio de practicas
+- EP Examen Parcial
+- EF Examen Final
+
+Se solicita:
+- Promedio Final
+- Condicion: APROBADO o DESAPROBADO
