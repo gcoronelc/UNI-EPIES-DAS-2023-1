@@ -102,8 +102,9 @@ go
 CREATE TABLE dbo.PRODUCTO
 ( 
 	IDPRODUCTO           integer IDENTITY ( 1,1 ) ,
-	NOMBRE               varchar(200)  NOT NULL ,
 	IDCATEGORIA          integer  NOT NULL ,
+	NOMBRE               varchar(200)  NOT NULL ,
+	STOCK                integer  NOT NULL ,
 	PRECOSTO             numeric(12,2)  NOT NULL ,
 	PREVENTA             numeric(12,2)  NOT NULL ,
 	CONSTRAINT XPKPRODUCTO PRIMARY KEY (IDPRODUCTO ASC),
