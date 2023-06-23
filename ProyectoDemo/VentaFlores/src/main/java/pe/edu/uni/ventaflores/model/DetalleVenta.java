@@ -11,6 +11,13 @@ public class DetalleVenta {
     private double subtotal;
 
     public DetalleVenta() {
+        this.iddetalle = 0;
+        this.idventa = 0;
+        this.idproducto = 0;
+        this.nombre = "POR DEFINIR";
+        this.preventa = 0;
+        this.cantidad = 0;
+        this.subtotal = 0;
     }
     
     public DetalleVenta(int idproducto, int cantidad){

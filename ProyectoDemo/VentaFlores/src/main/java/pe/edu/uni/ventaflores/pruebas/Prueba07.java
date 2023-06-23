@@ -4,10 +4,6 @@ import pe.edu.uni.ventaflores.model.DetalleVenta;
 import pe.edu.uni.ventaflores.model.Venta;
 import pe.edu.uni.ventaflores.service.NegocioService;
 
-/**
- * Registro de venta por el vendedor
- * @author LAB-A
- */
 public class Prueba07 {
     
     public static void main(String[] args) {

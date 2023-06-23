@@ -4,6 +4,8 @@
 
 package pe.edu.uni.ventaflores;
 
+import pe.edu.uni.ventaflores.view.MainView;
+
 /**
  *
  * @author LAB M5-E
@@ -11,6 +13,6 @@ package pe.edu.uni.ventaflores;
 public class VentaFlores {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        MainView.main(args);
     }
 }
