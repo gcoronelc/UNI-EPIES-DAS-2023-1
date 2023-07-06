@@ -212,6 +212,11 @@ public class RegistraVentaView extends javax.swing.JInternalFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAgregarItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarItemActionPerformed
+        // Probando el dialogo
+        NuevoItemView view = new NuevoItemView(null, true);
+        view.setVisible(true);
+        
+        
         // Recoge datos
         DetalleVenta dv = new DetalleVenta();
         dv.setIdproducto(Integer.parseInt(txtCodigo.getText()));

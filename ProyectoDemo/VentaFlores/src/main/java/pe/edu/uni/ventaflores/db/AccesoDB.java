@@ -13,7 +13,7 @@ public class AccesoDB {
     public static Connection getConnection() throws SQLException {
         Connection cn = null;
         String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-        String urlDB = "jdbc:sqlserver://localhost:1433;databaseName=DBFLORES;encrypt=True;TrustServerCertificate=True;";
+        String urlDB = "jdbc:sqlserver://192.168.4.18:1433;databaseName=DBFLORES;encrypt=True;TrustServerCertificate=True;";
         String user = "sa";
         String pass = "sql";
         try {
